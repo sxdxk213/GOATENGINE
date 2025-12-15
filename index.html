@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>GoatEngine.com — Domain For Sale</title>
-  <meta name="description" content="GoatEngine.com is a premium, brandable .com domain ideal for AI, SaaS, gaming, and engine-driven platforms.">
+  <meta name="description" content="GoatEngine.com is a premium brandable .com domain ideal for AI, SaaS, gaming, and engine-driven platforms.">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #0f0f0f;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #0b0b0b, #1a1a1a);
       color: #ffffff;
       display: flex;
       justify-content: center;
@@ -15,39 +16,81 @@
       height: 100vh;
       margin: 0;
     }
+
     .box {
-      max-width: 600px;
+      max-width: 620px;
+      padding: 42px;
       text-align: center;
-      padding: 40px;
-      border-radius: 12px;
-      background: #1a1a1a;
+
+      /* Glass effect */
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
     }
+
     h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
+      font-size: 44px;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
     }
+
     p {
-      color: #cccccc;
       font-size: 18px;
+      color: rgba(255, 255, 255, 0.75);
+      margin-bottom: 28px;
     }
+
     ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto 32px;
+      max-width: 440px;
       text-align: left;
-      margin: 30px auto;
-      max-width: 420px;
-      color: #dddddd;
     }
+
+    ul li {
+      padding: 12px 0;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.85);
+      position: relative;
+      padding-left: 26px;
+    }
+
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 22px;
+      line-height: 1;
+    }
+
     a.button {
       display: inline-block;
-      margin-top: 20px;
-      padding: 14px 28px;
-      background: #ffffff;
+      padding: 14px 34px;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 14px;
+
+      background: rgba(255, 255, 255, 0.95);
       color: #000;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
+
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    a.button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55);
     }
   </style>
 </head>
+
 <body>
   <div class="box">
     <h1>GoatEngine.com</h1>
@@ -55,12 +98,12 @@
 
     <ul>
       <li>Strong, modern, brandable name</li>
-      <li>Perfect for AI, SaaS, gaming, or engine-based products</li>
+      <li>Ideal for AI, SaaS, gaming, or engine-driven platforms</li>
       <li>Short, memorable, and scalable</li>
       <li>.com — trusted and globally recognized</li>
     </ul>
 
-    <a class="button" href="mailto:birechsadek@gmail.com">Make an Offer</a>
+    <a class="button" href="mailto:YOUR@email.com">Make an Offer</a>
   </div>
 </body>
 </html>
